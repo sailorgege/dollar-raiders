@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src * 'unsafe-inline'; media-src *" />
+	<title>区块链夺宝</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/game.js"></script>
+</head>
+<body>
+<div class="body-box">
+	<div class="header-bar">
+		<div class="header-logo">
+			<img src="images/bitcoin-logoS.png" width="80" height="80">
+			<div class="header-logo-text">
+				<span>21元BTC</span>
+			</div>
+		</div>
+		<div class="header-info">
+			<div class="header-title">
+				<span>玩法说明：</span>
+			</div>
+			<div class="header-desc">
+				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玩家从25个数字中购买任意数量的数字币，开奖时会随机选中25个数字币中的任意一个作为中奖号码，如果玩家购买的数字币中有中奖号码，则奖励玩家相应价值的比特币。</span>
+			</div>
+		</div>
+	</div>
+	<div id="container-box" class="container-box">
+		<div id="container-cell-0" class="container-cell">
+			<div class="container-block">
+				<div class="container-block-icon">
+					<img id="container-block-img-0" src="images/bitcoin-number.png" width="60" height="60">
+					<span class="container-block-number">5</span>
+				</div>
+				<div class="container-block-btn">
+					<button type="button" onclick="Game.onClickBtnBlock(this);">购买</button>
+				</div>
+			</div>
+			<div class="container-block">
+			</div>
+			<div class="container-block">
+			</div>
+			<div class="container-block">
+			</div>
+			<div class="container-block">
+			</div>
+		</div>
+		<div id="container-cell-1" class="container-cell">
+		</div>
+		<div id="container-cell-2" class="container-cell">
+		</div>
+		<div id="container-cell-3" class="container-cell">
+		</div>
+		<div id="container-cell-4" class="container-cell">
+		</div>
+	</div>
+	
+	<div id="control-game-play-panel" class="control-game-play-panel">
+		<button type="button" onclick="App.onClickBtnStartGame(this);">开始游戏</button>
+	</div>
+	
+	<div id="modal-detail-panel" class="modal-detail-panel">
+		<dir class="btn-modal-box">
+			<button class="btn-modal-close" type="button" onclick="App.onClickBtnCloseModal(this);">关闭</button>
+		</dir>
+		
+		<div id="token-detail-box" class="token-detail-box">
+			<div class="token-detail-image">
+				<img class="token-detail-logo" src="images/bitcoin-number.png" width="60" height="60">
+				<span class="token-detail-number" id="token-detail-number-text">0</span>
+			</div>
+			<div class="token-detail-info">
+				<div class="token-detail-name"><span id="token-detail-name">0号代币</span></div>
+				<div class="token-detail-text"><span id="token-detail-status">状态：已购</span></div>
+				<div class="token-detail-text"><span id="token-detail-time">出生日期：0000年00月00日</span></div>
+				<br>
+				<div class="token-detail-text"><span id="token-detail-address" class="token-detail-address">购买地址：</span></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="game_result_panel" class="game_result_panel" style="display: none">
+<!--
+		<div class="game_result_new_game">
+			<button class="game_result_new_game_btn" type="button" onclick="App.onClickBtnStartGame(this);">重新开始</button>
+		</div>
+-->
+		<span class="game_result_text">游戏结束！<br>本期胜出号码：<br><span>
+		<span id="game_result_text_number" class="game_result_text_number">5<span>
+		<br>
+	</div>
+	
+</div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

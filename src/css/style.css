@@ -1,0 +1,265 @@
+
+.body-box{
+	width: 100%;
+	min-height: 520px;
+	background-color: #f0eded;
+}
+.header-bar{
+	width: 100%;
+	height: 160px;
+	line-height: 160px;
+	padding-top: 10px;
+	margin-bottom: 2px;
+	background-color: white;
+}
+.header-logo{
+	float: left;
+	width: 100px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	margin-left: 10px;
+}
+.header-logo img{
+	margin-top: 5px;
+	width: 90px;
+	height: 90px;
+	padding: 5px;
+	border-color: #c5c5c5;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+}
+.header-logo-text{
+	position: relative;
+	top: -55px;
+	height: 20px;
+	line-height: 20px;
+}
+.header-logo-text span{
+	color: #ff3300;
+}
+.header-info{
+	float: left;
+	min-width: 60%;
+	max-width: 65%;
+	padding-left: 15px;
+}
+.header-title{
+	min-width: 60%;
+	height: 26px;
+	line-height: 26px;
+}
+.header-title span{
+	color: #ff3300;
+	font-size: 22px;
+}
+.header-desc{
+	min-width: 60%;
+	line-height: 22px;
+	margin-top: 8px;
+}
+.header-desc span{
+	color: #7e7e7e;
+	font-size: 12px;
+}
+
+.container-box{
+	width: 100%;
+	min-height: 360px;
+	line-height: 160px;
+	margin-bottom: 8px;
+	padding-top: 8px;
+	background-color: white;
+}
+.container-cell{
+	width: 100%;
+	height: 90px;
+	padding-left: 8px;
+	margin-bottom: 5px;
+}
+.container-block{
+	float: left;
+	width: 18%;
+	height: 90px;
+	margin-left: 2px;
+	border-color: #c5c5c5;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	background-color: #f5f2f2;
+}
+.container-block-icon{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.container-block-icon img{
+	position: relative;
+	top: -23px;
+	width: 60px;
+	height: 60px;
+}
+.container-block-number{
+	color: red;
+	font-size: 18px;
+	position: relative;
+	top: -205px;
+}
+.container-block-btn{
+	width: 100%;
+	height: 22px;
+	text-align: center;
+	margin-top: 5px;
+}
+.container-block-btn button{
+	position: relative;
+	top: -72px;
+	color: white;
+	border-color: #bbbbbb;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	outline: none;
+	background-color: #ff3300;
+}
+.control-game-play-panel{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+.control-game-play-panel button{
+	width: 160px;
+	height: 60px;
+	color: #ffffff;
+	font-size: 28px;
+	border-color: #773300;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	outline: none;
+	background-color: #ff3300;
+}
+
+.modal-detail-panel{
+	width: 100%;
+	height: 400px;
+	line-height: 30px;
+	background-color: #faf8ee;
+}
+.btn-modal-box{
+	float: right;
+	max-width: 120px;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+.btn-modal-close{
+	float: right;
+	width: 50px;
+	height: 36px;
+	margin-top: 0px;
+	margin-right: 8px;
+	color: #ff3300;
+	border-color: #cbcdcb;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	outline: none;
+	background-color: #e5e2e1;
+}
+.token-detail-box{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 0px;
+}
+.token-detail-image{
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin-top: 35px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.token-detail-logo{
+	width: 80px;
+	height: 80px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.token-detail-info{
+	min-height: 80px;
+	margin-top: 35px;
+}
+.token-detail-name{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 15px;
+}
+.token-detail-name span{
+	color: #ff3300;
+	font-size: 18px;
+}
+.token-detail-text{
+	width: 95%;
+	height: 30px;
+	line-height: 30px;
+}
+.token-detail-text span{
+	color: #737373;
+	font-size: 14px;
+}
+.token-detail-address{
+	font-size: 12px;
+	text-align: center;
+}
+.token-detail-number{
+	color: red;
+	font-size: 18px;
+	position: relative;
+	top: -63px;
+	left: 40px;
+}
+
+.game_result_panel{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	padding-top: 160px;
+	opacity: 0.8;
+	background-color: #373737;
+}
+.game_result_text {
+	color: #ff3300;
+	font-size: 22px;
+}
+.game_result_text_number{
+	margin-top: 15px;
+	color: #ff3300;
+	font-size: 80px;
+}
+.game_result_new_game{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.game_result_new_game_btn{
+	width: 260px;
+	height: 60px;
+	color: #ffffff;
+	font-size: 28px;
+	border-color: #773300;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	outline: none;
+	background-color: #ff3300;
+}
